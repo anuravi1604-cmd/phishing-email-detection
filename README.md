@@ -6,7 +6,7 @@ A Machine Learning and NLP-based phishing email detection web application built 
 
 ## Live Demo
 
-https://phishing-email-detection-34bzxhc4jgzannzxaqssey.streamlit.app/
+https://phishing-email-detection-ayhyqybwmsrjmgqmzwbrsw.streamlit.app/
 
 ---
 
