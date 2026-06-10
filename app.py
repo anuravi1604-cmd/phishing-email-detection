@@ -20,8 +20,12 @@ st.set_page_config(
 # DOWNLOAD NLTK DATA
 # ============================================================
 
-nltk.download('punkt')
-nltk.download('stopwords')
+@st.cache_resource
+def download_nltk_data():
+    nltk.download('punkt', quiet=True)
+    nltk.download('stopwords', quiet=True)
+
+download_nltk_data()
 
 # ============================================================
 # LOAD MODEL + VECTORIZER
