@@ -22,7 +22,7 @@ st.set_page_config(
 
 @st.cache_resource
 def download_nltk_data():
-    nltk.download('punkt', quiet=True)
+    nltk.download('punkt_tab', quiet=True)
     nltk.download('stopwords', quiet=True)
 
 download_nltk_data()
